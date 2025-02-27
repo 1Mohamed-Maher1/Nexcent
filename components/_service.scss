@@ -21,7 +21,8 @@
 
     &__clients {
         display: flex;
-        width: 100%;
         justify-content: space-between;
+        padding-block: 2.5rem;
+        width: 100%;
     }
 }

@@ -1,0 +1,50 @@
+.feature {
+    width: 100%;
+    // justify-items: center;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 1.6rem;
+
+    }
+
+    &__title {
+        font-size: var(--font-size-36);
+        line-height: var(--line-height-44);
+        font-weight: var(--font-weight-bold);
+        text-align: center;
+    }
+
+    &__description {
+        line-height: var(--line-height-24);
+    }
+
+    &__cards {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        &-card {
+            width: 29.9rem;
+            justify-items: center;
+            padding: 2.4rem 3.2rem;
+            text-align: center;
+
+            &-title {
+                font-size: var(--font-size-28);
+                line-height: var(--line-height-36);
+                font-weight: var(--font-weight-bold);
+                text-align: center;
+            }
+
+            &-description {
+                font-size: var(--font-size-14);
+                line-height: var(--line-height-20);
+                margin-top: 0.8rem;
+            }
+        }
+    }
+}
