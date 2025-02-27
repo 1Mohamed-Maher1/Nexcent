@@ -1,0 +1,27 @@
+.service {
+    width: 100%;
+    justify-items: center;
+    margin-block: 4rem;
+
+    &__content {
+        margin-bottom: 1.6rem;
+    }
+
+    &__title {
+        font-size: var(--font-size-36);
+        line-height: var(--line-height-44);
+        font-weight: var(--font-weight-bold);
+        justify-self: center;
+    }
+
+    &__description {
+        line-height: var(--line-height-24);
+        margin-top: 0.8rem;
+    }
+
+    &__clients {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
