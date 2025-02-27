@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-16);
+    color: var(--Color-text);
+    background-color: var(--Color-Silver);
+    overflow-x: hidden;
+    padding-inline: 11.4rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(var(--container-width) + var(--gutter)* 2);
+    padding-inline: var(--gutter);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-d_grey);
+}
+
+p {
+    color: var(--color-grey);
+}
+
+// .section {}

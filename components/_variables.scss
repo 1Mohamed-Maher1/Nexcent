@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root {
+  /* Layout */
+  --container-width: 115.2rem;
+  --padding-inline: 14.4rem;
+  --gutter: 2.4rem;
+  /* Colors */
+
+  /* Neutral  */
+  --color-text: #18191F;
+  --color-black: #263238;
+  --color-d_grey: #4d4d4d;
+  --color-grey: #717171;
+  --color-l_grey: #89939E;
+  --color-grey-blue: #ABBED1;
+  --color-silver: #f5f7fa;
+  --color-white: #FFFFFF;
+  /*Primary */
+  --color-primary: #4CAF4F;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
+  /*Color Shade */
+  --color-shade-1: #43A046;
+  --color-shade-2: #388E3B;
+  --color-shade-3: #237D31;
+  --color-shade-4: #1B5E1F;
+  --color-shade-5: #103E13;
+  /*Color Tint */
+  --color-shade-1: #66BB69;
+  --color-shade-2: #81C784;
+  --color-shade-3: #A5D6A7;
+  --color-shade-4: #C8E6C9;
+  --color-shade-5: #E8F5E9;
+  /*Action */
+  --color-warning: #FBC02D;
+  --color-error: #E53835;
+  --color-success: #2E7D31;
+  /* End Colors */
+
+  /* Shadows */
+  --shadow-2px: #ABBED1 (60%);
+  --shadow-4px: #ABBED1 (40%);
+  --shadow-6px: #ABBED1 (30%);
+  --shadow-8px: #ABBED1 (40%);
+  --shadow-16px: #ABBED1 (30%);
+  /* Typography  */
+
+
+  /* Fonts */
+  --font-family-raleway: "Raleway", sans-serif;
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-size-70: 7rem;
+  --font-size-64: 6.4rem;
+  --font-size-40: 4rem;
+  --font-size-48: 4.8rem;
+  --font-size-38: 3.8rem;
+  --font-size-24: 2.4rem;
+  --font-size-22: 2.2rem;
+  --font-size-20: 2rem;
+  --font-size-18: 1.8rem;
+  --font-size-16: 1.6rem;
+  --font-size-15: 1.5rem;
+  --line-height-76: 7.6rem;
+  --line-height-24: 2.4rem;
+  /* Transitions */
+  --transition-timing: 0.3s;
+}
