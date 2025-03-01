@@ -20,6 +20,26 @@ body {
 
 }
 
+.main {
+    &-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4.2rem;
+    }
+
+    &-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    &-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+    }
+}
+
 h1,
 h2,
 h3,

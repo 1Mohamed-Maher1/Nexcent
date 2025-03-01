@@ -122,6 +122,22 @@ body {
   padding-inline: var(--gutter);
 }
 
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4.2rem;
+}
+.main-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+.main-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4.8rem;
+}
+
 h1,
 h2,
 h3,
@@ -272,7 +288,6 @@ p {
 .service {
   width: 100%;
   justify-items: center;
-  margin-block: 4rem;
 }
 .service__content {
   margin-bottom: 1.6rem;
@@ -334,6 +349,35 @@ p {
   font-size: var(--font-size-14);
   line-height: var(--line-height-20);
   margin-top: 0.8rem;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 4.9rem;
+}
+.product__img {
+  width: 44.1rem;
+}
+.product__content h3 {
+  font-size: var(--font-size-36);
+  line-height: var(--line-height-44);
+  font-weight: var(--font-weight-bold);
+}
+.product__content p {
+  line-height: var(--line-height-24);
+  margin-top: 0.8rem;
+}
+.product__content button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0.4rem;
+  line-height: var(--line-height-24);
+  font-weight: var(--font-weight-medium);
+  padding: 1.4rem 3.2rem;
+  margin-top: 3.2rem;
 }
 
 .footer {
