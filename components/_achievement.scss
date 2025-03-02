@@ -1,0 +1,57 @@
+.achievement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__content {
+        width: 54rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem; // gap between title and description
+        align-self: center;
+    }
+
+    &__title {
+        font-size: var(--font-size-36);
+        line-height: var(--line-height-44);
+        font-weight: var(--font-weight-bold);
+
+        & span {
+            color: var(--color-primary);
+        }
+    }
+
+    &__description {
+        line-height: var(--line-height-24);
+        color: var(--color-text);
+        // margin-top: 0.8rem;
+    }
+
+    &__statistics {
+        width: 54rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem 3rem;
+
+    }
+}
+
+.statistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+
+    &__content {
+
+        &-title {
+            font-size: var(--font-size-28);
+            line-height: var(--line-height-36);
+            font-weight: var(--font-weight-bold);
+        }
+
+        &-description {
+            line-height: var(--line-height-24);
+        }
+    }
+}
