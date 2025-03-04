@@ -10,7 +10,7 @@ body {
     color: var(--Color-text);
     background-color: var(--Color-Silver);
     overflow-x: hidden;
-    padding-inline: 11.4rem;
+    // padding-inline: 11.4rem;
 }
 
 .container {
@@ -52,5 +52,14 @@ h6 {
 p {
     color: var(--color-grey);
 }
+
+// .button {
+//     background-color: var(--color-primary);
+//     color: var(--color-white);
+//     border-radius: 0.4rem;
+//     line-height: var(--line-height-24);
+//     font-weight: var(--font-weight-medium);
+//     padding: 1.4rem 3.2rem;
+// }
 
 // .section {}

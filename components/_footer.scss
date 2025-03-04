@@ -1,5 +1,118 @@
 .footer {
-  padding: 1rem 0;
-  font-size: var(--font-size-15);
-  border-top: 0.1rem solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  padding: 6.4rem 16.4rem;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 4rem;
+
+    &-logo {
+      width: 19.1rem;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    &-copyright {
+      color: var(--color-silver);
+    }
+
+    &__social {
+      display: flex;
+      gap: 1.6rem;
+
+      &-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-d_grey);
+        border-radius: 100%;
+        width: 3.2rem;
+        height: 3.2rem;
+      }
+
+      & img {
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        text-decoration: center;
+        text-align: center;
+      }
+    }
+  }
+
+  &__right {
+    // display: flex;
+    // flex-direction: row;
+    // align-content: center;
+    // justify-content: center;
+    // gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    width: 63.5rem;
+
+    &__col {
+      width: 16rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+      color: var(--color-silver);
+      font-size: var(--font-size-14);
+      line-height: var(--line-height-20);
+
+      &-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+      }
+
+      &-title {
+        color: var(--color-white);
+        font-size: var(--font-size-20);
+        line-height: var(--line-height-28);
+      }
+
+      &-lists {
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+      }
+
+      &__form {
+        position: relative;
+
+        &-input {
+          width: 22.5rem;
+          padding: 1.1rem;
+          background-color: var(--color-d_grey);
+          color: var(--color-white);
+          border: none;
+          border-radius: 0.8rem;
+          font-size: var(--font-size-14);
+
+          &::placeholder {
+            color: #D9DBE1;
+          }
+        }
+
+        &-icon {
+          position: absolute;
+          top: 35%;
+          left: 20.5rem;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
 }
