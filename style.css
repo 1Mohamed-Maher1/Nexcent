@@ -65,6 +65,7 @@
   --line-height-76: 7.6rem;
   --line-height-44: 4.4rem;
   --line-height-36: 3.6rem;
+  --line-height-28: 2.8rem;
   --line-height-24: 2.4rem;
   --line-height-22: 2.2rem;
   --line-height-20: 2rem;
@@ -453,6 +454,67 @@ p {
   font-weight: var(--font-weight-medium);
   padding: 1.4rem 3.2rem;
   margin-top: 3.2rem;
+}
+
+.customer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.8rem;
+  padding-block: 3.2rem;
+}
+.customer__img img {
+  width: 32.6rem;
+}
+.customer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+.customer__content__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.customer__content__info_1-des {
+  line-height: var(--line-height-24);
+}
+.customer__content__info_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.customer__content__info_2-name {
+  font-size: var(--font-size-20);
+  line-height: var(--line-height-28);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+.customer__content__info_2-company {
+  line-height: var(--line-height-24);
+  color: var(--color-l_grey);
+}
+.customer__content__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3.2rem;
+}
+.customer__content__logo-1 {
+  display: flex;
+  gap: 4.1rem;
+}
+.customer__content__logo-meet {
+  font-size: var(--font-size-20);
+  line-height: var(--line-height-28);
+  color: var(--color-primary);
+}
+.customer__content__logo-meet-link {
+  text-decoration: none;
+}
+.customer__content__logo-meet-arrow {
+  margin-left: 0.8rem;
 }
 
 .footer {
