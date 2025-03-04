@@ -88,6 +88,7 @@
 a {
   color: inherit;
   display: inline-block;
+  text-decoration: none;
 }
 
 button {
@@ -510,10 +511,63 @@ p {
   line-height: var(--line-height-28);
   color: var(--color-primary);
 }
-.customer__content__logo-meet-link {
-  text-decoration: none;
-}
 .customer__content__logo-meet-arrow {
+  margin-left: 0.8rem;
+}
+
+.community__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.community__heading-title {
+  font-size: var(--font-size-36);
+  line-height: var(--line-height-44);
+  font-weight: var(--font-weight-bold);
+}
+.community__heading-description {
+  width: 62.8rem;
+  line-height: var(--line-height-24);
+  text-align: center;
+}
+.community__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2.3rem;
+  margin-top: 1.6rem;
+}
+.community__content__card {
+  position: relative;
+  width: 36.8rem;
+  height: 36.6rem;
+}
+.community__content__card__info {
+  position: absolute;
+  top: 190px;
+  left: 25.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.6rem;
+  background-color: var(--color-silver);
+  text-align: center;
+  width: 31.7rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 6px 9px 0px #abbed1;
+}
+.community__content__card__info-title {
+  font-size: var(--font-size-20);
+  line-height: var(--line-height-28);
+}
+.community__content__card__info-link {
+  color: var(--color-primary);
+  padding: 0.8rem;
+  font-weight: var(--font-weight-bold);
+}
+.community__content__card__info-link span {
   margin-left: 0.8rem;
 }
 
